@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package codibre.Mutex;
+
+service MutexService {
+  rpc acquire (AcquireRequest) returns (AcquireResponse) {}
+  rpc release (ReleaseRequest) returns (ReleaseResponse) {}
+}
+
+message AcquireRequest {
+  string id = 1;
+  optional int32 waitTimeout = 2;
+  optional int32 mutexTimeout = 3;
+}
+
+message AcquireResponse {
+  string id = 1;
+}
+
+message ReleaseRequest {
+  string id = 1;
+}
+
+message ReleaseResponse {
+}
