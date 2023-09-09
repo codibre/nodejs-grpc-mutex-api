@@ -1,0 +1,10 @@
+{
+  "hideGenerator": true,
+  "theme": "markdown",
+  "out": "docs",
+  "readme": "none",
+  "name": "nodejs-grpc-mutex-api",
+  "includeVersion": true,
+  "disableSources": true,
+  "entryPoints": ["src/index.ts"]
+}

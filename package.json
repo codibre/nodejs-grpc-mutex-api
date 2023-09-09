@@ -24,8 +24,9 @@
 				"test:coverage": "TZ=UTC jest test/unit --runInBand --forceExit --coverage",
 				"test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
 				"test:e2e": "TZ=UTC jest test/e2e",
-				"docker:build": "docker build --rm -f \"Dockerfile\" -t maxmilhas/mutex-api:latest \".\"",
-				"docker:run": "docker run --env-file .env --network host maxmilhas/mutex-api"
+				"doc": "rm -rf docs && npx typedoc && git add . && git commit -m \"chore: generating docs [skip ci]\"",
+				"docker:build": "docker build --rm -f \"Dockerfile\" -t maxmilhas/grpc-mutex-api:latest \".\"",
+				"docker:run": "docker run --env-file .env --network host maxmilhas/grpc-mutex-api"
 		},
 		"author": "",
 		"license": "ISC",
@@ -42,7 +43,9 @@
 				"jest-callslike": "^0.2.1",
 				"prettier": "^3.0.3",
 				"ts-jest": "^29.1.1",
-				"ts-node": "^10.9.1"
+				"ts-node": "^10.9.1",
+				"typedoc": "^0.25.1",
+				"typedoc-plugin-markdown": "^3.16.0"
 		},
 		"dependencies": {
 				"@grpc/grpc-js": "^1.9.2",
@@ -95,5 +98,16 @@
 				"setupFilesAfterEnv": [
 						"./test/setup.ts"
 				]
+		},
+		"directories": {
+				"test": "test"
+		},
+		"repository": {
+				"type": "git",
+				"url": "https://github.com/codibre/nodejs-grpc-mutex-api.git"
+		},
+		"homepage": "https://github.com/codibre/nodejs-grpc-mutex-api#readme",
+		"bugs": {
+				"url": "https://github.com/codibre/nodejs-grpc-mutex-api/issues"
 		}
 }
