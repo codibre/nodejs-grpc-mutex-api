@@ -1,6 +1,6 @@
 {
 		"name": "grpc-mutex-api",
-		"version": "0.1.0",
+		"version": "0.1.1",
 		"private": true,
 		"description": "A mutex implementation using nodejs event loop logic and promises",
 		"main": "dist/index.js",
