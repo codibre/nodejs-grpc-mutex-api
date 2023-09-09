@@ -6,5 +6,6 @@
   "name": "nodejs-grpc-mutex-api",
   "includeVersion": true,
   "disableSources": true,
-  "entryPoints": ["src/index.ts"]
+  "entryPoints": ["src/index.ts"],
+  "exclude": []
 }
