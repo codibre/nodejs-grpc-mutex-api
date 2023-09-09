@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: "lts/*"
       - run: previousVersion=$(sed 's/.*"version"&#58; "\(.*\)".*/\1/;t;d' ./package.json)
-      - run: npm i -g @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/git @semantic-release/github @semantic-release/exec @semantic-release/release-notes-generator semantic-release
+      - run: npm i -g @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/git @semantic-release/github @semantic-release/exec @semantic-release/release-notes-generator @semantic-release/npm semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           HUSKY: 0
