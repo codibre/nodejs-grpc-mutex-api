@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.4.0...v0.5.0) (2023-09-10)
+
+
+### Features
+
+* preparing tag publishing ([241802d](https://github.com/codibre/nodejs-grpc-mutex-api/commit/241802d21eb37b5bd3f31740795cd15c3799156a))
+
 # [0.4.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.3.0...v0.4.0) (2023-09-10)
 
 
