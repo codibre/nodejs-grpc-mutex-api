@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.3.0...v0.4.0) (2023-09-10)
+
+
+### Features
+
+* separating semantic release and docker publish ([d09a624](https://github.com/codibre/nodejs-grpc-mutex-api/commit/d09a624dae861262d6ceddf297bad18d0f4fc695))
+
 # [0.3.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.2.0...v0.3.0) (2023-09-10)
 
 
