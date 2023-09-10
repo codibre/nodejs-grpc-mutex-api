@@ -42,6 +42,5 @@ jobs:
       - run: |
           if [ "$previousVersion" != "$finalVersion" ]; then
             git push
+            gh workflow run publish.yml --ref $finalVersion
           fi
-      - run: |
-          gh workflow run publish.yml --ref $(cat .version)
