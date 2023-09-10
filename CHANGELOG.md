@@ -1,3 +1,15 @@
+# [0.2.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.1.0...v0.2.0) (2023-09-10)
+
+
+### Bug Fixes
+
+* fixing typedoc theme ([c67fd5c](https://github.com/codibre/nodejs-grpc-mutex-api/commit/c67fd5c8e2410d168423fbfe790b922065381aaa))
+
+
+### Features
+
+* removing nestjs dependencies ([8aec41d](https://github.com/codibre/nodejs-grpc-mutex-api/commit/8aec41d87de60812d540603926dff94a3945d5b2))
+
 # [0.1.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.0.0...v0.1.0) (2023-09-09)
 
 
