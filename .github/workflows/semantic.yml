@@ -46,4 +46,4 @@ jobs:
             git push
           fi
       - run: |
-          gh workflow run publish.yml --ref $LATEST_VERSION
+          gh workflow run publish.yml --ref $(cat .version)
