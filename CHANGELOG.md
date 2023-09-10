@@ -3,6 +3,15 @@
 
 ### Bug Fixes
 
+* fixing publishing ([8ab0994](https://github.com/codibre/nodejs-grpc-mutex-api/commit/8ab099478b5b3a276e1b8d06ac22c7c55b941020))
+* fixing publishing ([b2c8537](https://github.com/codibre/nodejs-grpc-mutex-api/commit/b2c85372b799bdc6580f07beed4f74a118cb94ae))
+* fixing publishing ([476b969](https://github.com/codibre/nodejs-grpc-mutex-api/commit/476b9693747fbdd3a1e18b76e5235f3899112f99))
+
+## [0.6.4](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.6.3...v0.6.4) (2023-09-10)
+
+
+### Bug Fixes
+
 * fixing publishing ([b2c8537](https://github.com/codibre/nodejs-grpc-mutex-api/commit/b2c85372b799bdc6580f07beed4f74a118cb94ae))
 * fixing publishing ([476b969](https://github.com/codibre/nodejs-grpc-mutex-api/commit/476b9693747fbdd3a1e18b76e5235f3899112f99))
 
