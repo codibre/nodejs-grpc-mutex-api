@@ -1,3 +1,10 @@
+# [0.3.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.2.0...v0.3.0) (2023-09-10)
+
+
+### Features
+
+* setting tag definition for docker hub ([3d5b4b2](https://github.com/codibre/nodejs-grpc-mutex-api/commit/3d5b4b208abb3b4e3c47935f2cedbc267e5ddbbd))
+
 # [0.2.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.1.0...v0.2.0) (2023-09-10)
 
 
