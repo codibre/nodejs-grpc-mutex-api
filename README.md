@@ -1,7 +1,7 @@
 [![Actions Status](https://github.com/Codibre/nodejs-grpc-mutex-api/workflows/build/badge.svg)](https://github.com/Codibre/nodejs-grpc-mutex-api/actions)
 [![Actions Status](https://github.com/Codibre/nodejs-grpc-mutex-api/workflows/test/badge.svg)](https://github.com/Codibre/nodejs-grpc-mutex-api/actions)
 [![Actions Status](https://github.com/Codibre/nodejs-grpc-mutex-api/workflows/lint/badge.svg)](https://github.com/Codibre/nodejs-grpc-mutex-api/actions)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/65e41e3018643f28168e/test_coverage)](https://codeclimate.com/github/Codibre/nodejs-grpc-mutex-api/test_coverage)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/fbe2b0c3fe6ea04b077c/test_coverage)](https://codeclimate.com/github/Codibre/nodejs-grpc-mutex-api/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/65e41e3018643f28168e/maintainability)](https://codeclimate.com/github/Codibre/nodejs-grpc-mutex-api/maintainability)
 
 This is a simple distributed mutex implementation that uses only memory and the own nodejs event loop to work.
