@@ -1,4 +1,4 @@
-name: semantic-release
+name: publish
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  semantic:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Log in to Docker Hub
