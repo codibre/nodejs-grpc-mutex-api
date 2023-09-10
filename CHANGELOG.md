@@ -1,3 +1,10 @@
+## [0.6.3](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.6.2...v0.6.3) (2023-09-10)
+
+
+### Bug Fixes
+
+* separating workflows ([80e6066](https://github.com/codibre/nodejs-grpc-mutex-api/commit/80e606660d659615ed0c33e83c66099af78ba51e))
+
 ## [0.6.2](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.6.1...v0.6.2) (2023-09-10)
 
 
