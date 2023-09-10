@@ -1,3 +1,10 @@
+## [0.6.5](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.6.4...v0.6.5) (2023-09-10)
+
+
+### Bug Fixes
+
+* fixing publishing ([9f13247](https://github.com/codibre/nodejs-grpc-mutex-api/commit/9f132474febd1348a75764e14a44a23bf2f97469))
+
 ## [0.6.4](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.6.3...v0.6.4) (2023-09-10)
 
 
