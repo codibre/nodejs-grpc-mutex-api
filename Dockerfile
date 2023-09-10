@@ -1,6 +1,7 @@
 FROM node:18 as builder
 
 COPY ./src /build/src
+COPY ./proto /build/proto
 COPY package*.json /build/
 COPY tsconfig*.json /build/
 
@@ -11,7 +12,7 @@ RUN cd /build && npm ci \
   && rm -rf src \
   && chown -R root:root .
 
-FROM node:18.14-alpine
+FROM node:18-alpine
 COPY --from=builder /build ./app/
 WORKDIR /app
 

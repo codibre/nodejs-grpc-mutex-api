@@ -25,8 +25,8 @@
 				"test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
 				"test:e2e": "TZ=UTC jest test/e2e",
 				"doc": "rm -rf docs && npx typedoc && git add . && git commit -m \"chore: generating docs [skip ci]\"",
-				"docker:build": "docker build --rm -f \"Dockerfile\" -t maxmilhas/grpc-mutex-api:latest \".\"",
-				"docker:run": "docker run --env-file .env --network host maxmilhas/grpc-mutex-api"
+				"docker:build": "docker build --rm -f \"Dockerfile\" -t maxmilhas/nodejs-grpc-mutex-api:latest \".\"",
+				"docker:run": "docker run --env-file .env --network host maxmilhas/nodejs-grpc-mutex-api"
 		},
 		"author": "",
 		"license": "ISC",
