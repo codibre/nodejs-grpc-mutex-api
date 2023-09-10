@@ -1,3 +1,10 @@
+# [0.6.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.5.0...v0.6.0) (2023-09-10)
+
+
+### Features
+
+* trying to generate images for versions ([fbbb9f6](https://github.com/codibre/nodejs-grpc-mutex-api/commit/fbbb9f60bc5cb4dc34ff0686b16eaade6f3cb9c5))
+
 # [0.5.0](https://github.com/codibre/nodejs-grpc-mutex-api/compare/v0.4.0...v0.5.0) (2023-09-10)
 
 
