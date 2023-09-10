@@ -13,7 +13,7 @@
       "@semantic-release/github",
       "@semantic-release/git",
       ["@semantic-release/exec", {
-        "prepareCmd": "echo \"${nextRelease.version}\" > .version"
+        "prepareCmd": "echo \"v${nextRelease.version}\" > .version"
       }]
   ],
   "preset": "angular"
