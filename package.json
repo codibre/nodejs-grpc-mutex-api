@@ -26,7 +26,7 @@
 				"test:e2e": "TZ=UTC jest test/e2e",
 				"doc": "rm -rf docs && npx typedoc && git add . && git commit -m \"chore: generating docs [skip ci]\"",
 				"docker:build": "docker build --rm -f \"Dockerfile\" -t maxmilhas/nodejs-grpc-mutex-api:latest \".\"",
-				"docker:run": "docker run --env-file .env --network host maxmilhas/nodejs-grpc-mutex-api"
+				"docker:run": "docker run -p 3000:3000 maxmilhas/nodejs-grpc-mutex-api"
 		},
 		"author": "",
 		"license": "ISC",

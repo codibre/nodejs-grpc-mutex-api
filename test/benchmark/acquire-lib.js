@@ -12,12 +12,13 @@ const DELAY_COUNT = 1000;
 
 // eslint-disable-next-line @typescript-eslint/no-magic-numbers
 const MUTEX_TIMEOUT = 5 * 60 * 60 * 1000;
+const MAX_DELAY = 10;
 async function botaPraFude() {
   await main();
   const proto = loadSync(join(process.cwd(), '/proto/mutex.proto'));
   const definition = loadPackageDefinition(proto);
   const client = new definition.codibre.Mutex.MutexService(
-    '0.0.0.0:3000',
+    '127.0.0.1:3000',
     ChannelCredentials.createInsecure(),
   );
   await waitForTimeout(LOAD_DELAY);
@@ -27,9 +28,15 @@ async function botaPraFude() {
   });
   const acquire = promisify(client.acquire.bind(client));
   const stepper = getAverageStepper();
-  await interval(0, MAX_ACQUIRES).map(async (i) => {
+  await interval(0, MAX_ACQUIRES).map((i) => {
+    const id = `id${i}`;
+    const delay = Math.ceil(Math.random() * (MAX_DELAY - 1) + 1);
+    // console.log('delay ', delay, ' id ', id);
+    return { id, delay };
+  }).map(async ({ id, delay }) => {
+    await waitForTimeout(delay);
     const current = performance.now();
-    await acquire({ id: `id${i}`, mutexTimeout: MUTEX_TIMEOUT });
+    await acquire({ id, mutexTimeout: MUTEX_TIMEOUT });
     stepper.step(performance.now() - current);
     count++;
   })
